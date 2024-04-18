@@ -11,10 +11,10 @@ In AimBooster, targets pop up on the screen at random locations. The player's ta
 
 1. Clone the repository.
 ### Or
-Compile the game using your preferred C++ compiler(shown here using gcc):
+Compile the game and link the libraries using your preferred C++ compiler(shown here using g++):
 + Run `g++ -c game9.cpp -I"path\\to\\repo\\SFML-2.5.1\\include" -DSFML-STATIC`
 + Run `g++ game9.o -o game9 -L"path\\to\\repo\\SFML-2.5.1\\lib" -lsfml-graphics -lsfml-window -lsfml-system -lsfml-main`
-
+Read more about this [here](https://www.sfml-dev.org/tutorials/2.5/)
 2. Run the `game9.exe` file.
    
 ## Built With
